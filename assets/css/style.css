@@ -123,4 +123,66 @@ footer{
 	position:fixed;
 	bottom:0;
 }
-	
+
+.allforms{
+	margin:0 40px 40px 40px;
+	width:100%;
+}
+
+	.infopiece, .userinfo, #subject{
+		float:left;
+		clear:both;
+		
+	}
+
+	.infopiece{
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:14px;
+		color: #666666;
+		margin:10px 0px 7px 0px;
+		font-weight:600;
+	}
+
+	.userinfo{
+		height:18px;
+		text-align:middle;
+		padding:none;
+		width:100%;
+		margin-right:auto;
+		margin-left:auto;
+	}
+
+	.userinfo, #subject{
+		font-family:Arial, Helvetica, sans-serif;
+		font-size:14px;
+		line-height:21px;
+		color:#666666;
+		margin-bottom:15px;
+		border-radius:3px;
+		border-style:solid;
+		border-color:#666666;
+		border-width:thin;
+	}
+
+	#finalbutton{
+		float:left;
+		clear:both;	
+		margin-bottom:40px;
+		margin-top:20px;
+		background-color:#4aaaa5;
+		color:white;
+		height:40px;
+		width:90px;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align:center;
+		text-align:middle;
+		border-style:none;
+	}
+
+/*Clearfix Base*/
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+	overflow:auto;
+  }  

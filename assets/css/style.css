@@ -9,6 +9,11 @@
 	margin-left:5%;
 }
 
+.dropdownList{
+	border-style:solid;
+	border-width:2px;
+	border-color:#cccccc;
+}
 .personalMods{
 	padding: 0 !important;
 	background-color:#ffffff;
@@ -36,7 +41,24 @@
 	border-width:1px;
 }
 
+/*Easter Egg*/
+.easteregg{
+	display:none;
+	margin-top:70px;
+	width:250px;
+	margin-left:auto;
+	margin-right:auto;
+  }
+
 /*Main Body*/
+.fullPage{
+	box-sizing:border-box;
+	padding:0px;
+	margin:0;
+	min-height:100%;
+	margin-bottom:-40px;
+}
+
 main{
 	border-style:solid;
 	border-width:2px;
@@ -49,6 +71,8 @@ main{
 	margin-left:auto;
 	margin-right:auto;
 	margin-bottom:100px;
+	padding-left:10px;
+	padding-right:10px;
 }
 
 h2{
@@ -57,29 +81,57 @@ h2{
 	border-color:#4aaaa5;
 	border-bottom:solid;
 	color: #4aaaa5;
+	width:100%;
+	padding-top:20px;
+	padding-bottom:10px;
+	padding-left:12%;
+	margin-bottom:20px;
 }	
 
+footer{
+	border-color: #4aaaa5;
+	border-top-style:solid;
+	border-width:3px;
+	color:#ffffff;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+	font-size:16px;
+	background-color:#666666;
+	text-align:center;
+	height:40px;
+	line-height:40px;
+	padding-top:0px;
+}
+
+/*Index Specific*/
 .profileBox{
+	float:left;
+	display:block;
+	max-width:300px;
+	padding-left:40px;
+	padding-right:30px;
+	padding-bottom:20px;
 	position:relative;
-	max-width:500px;
-	margin-right:20px;
-
 }
 
-.profilepic{
-	padding: 0px 40px 20px 20px;
+#profilePic{
+	width:100%;
+	display:block;
+	margin-right:30px;
 }
 
-.bio{
-	margin: 20px 20px 40px 20px;
+.bioText{
+	margin:0px 35px 20px 40px;
+	font-family:Arial, Helvetica, sans-serif;
 }
 
+/*Portfolio Specific*/
 .picBox{
 	position:relative;
-	max-width:100%;
+	width:100%;
+	max-width:300px;
 	margin-bottom: 40px;
-	margin-left:3rem;
-	margin-right:3rem;
+	margin-left:auto;
+	margin-right:auto;
 }
 
 .piclimit{
@@ -88,51 +140,39 @@ h2{
 }
 
 .picLabel{
-	position: absolute;
-	bottom:30px;
+	position:absolute;
+	bottom:15%;
+	left:0;
 	width:100%;
-	max-width:100%;
-	height:40px;
-	text-align: center;
-	line-height:40px;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:24px;
-}
-
-.clearfix::after {
-	content: "";
-	display: block;
-	clear: both;
-	overflow:auto;
-}  
-
-footer{
-	height:40px;
-	line-height:40px;
-	text-align:center;
+	background-color:#4aaaa5;
 	color:#ffffff;
-	font-family: Georgia, 'Times New Roman', Times, serif;
-	font-size:16px;
-	background-color:#666666;
-	width: 100%;
-	border-top-style:solid;
-	border-width:3px;
-	border-color: #4aaaa5;
-	position:fixed;
-	bottom:0;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	line-height:36px;
+	height:36px;
+	text-align:center;
+	text-decoration:none;
 }
 
+.picLabel:hover {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height: 38px;
+	width:100%;
+	color:#ffffff;
+	border: 2px solid white; 
+	text-decoration:none;
+}
+
+/*Contact Specific*/
 .allforms{
-	margin:0 40px 40px 40px;
 	width:100%;
 }
 
 	.infopiece, .userinfo, #subject{
 		float:left;
 		clear:both;
-		
 	}
 
 	.infopiece{
@@ -186,3 +226,9 @@ footer{
 	clear: both;
 	overflow:auto;
   }  
+
+  @media screen and (max-width:400px){
+	  .easteregg{
+		  display:block;
+	  }
+  }

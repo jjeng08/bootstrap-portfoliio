@@ -1,74 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
+<head>
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-		 crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/style.css">
-	
-		<title>Joshua Jeng's Profile</title>
-	</head>
-	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<title>Joshua Jeng's Profile</title>
+</head>
 
 <body>
+	<div class="fullPage">
 	<!--This is the title bar of this page which contains my name and the connecting links.-->
 	<nav class="navbar navbar-expand-lg  fixed-top personalMods" role="navigation">
 		<a class="navbar-brand px-3" id="barName" href="#">Joshua Jeng</a>
-		<button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-		 aria-expanded="false" aria-label="Toggle navigation">
+		<button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+		 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon navbar-light"></span>
 		</button>
 		<div class="collapse navbar-collapse m1-auto " id="navbarNavDropdown">
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a class="nav-link barlink" id="barPortfolio" href="#">About <span class="sr-only">(current)</span></a>
+					<a class="nav-link barlink" id="barPortfolio" href="./index.html">About <span class="sr-only">(current)</span></a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link barlink" id="barPortfolio" href="#">Portfolio</a>
+					<a class="nav-link barlink" id="barPortfolio" href="./portfolio.html">Portfolio</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link barlink" href="#">Contact</a>
+					<a class="nav-link barlink" href="./contact.html">Contact</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
+
+	<img class="easteregg" src="./assets/images/easteregg.jpg">
+	
 	<!--My bio contains a picture and three paragraphs talking about me.-->
 	<main class="clearfix">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<h2 class="pl-5 pt-4 pb-2 mb-4 mx-4">About Me</h2>
-						<div class=profileBox>
-								<img class="img-fluid float-left profilepic" src="assets/images/sunpraise.jpg">
-						</div>
-					
-
-		<div class="bio">
-			<p>Ah, hello! You don't look Hollow, far from it! I am Solaire of Astora, an adherent of the Lord of Sunlight. Now
-				that I am Undead, I have come to this great land, the birthplace of Lord Gwyn, to seek my very own sun! … Do you
-				find that strange? Well, you should! No need to hide your reaction. I get that look all the time! Hah hah hah! Oh,
-				ah hah! </p>
-			<p>So, I didn't scare you? I have a proposition, if you have a moment. The way I see it, our fates appear to be
-				intertwined. In a land brimming with Hollows, could that really be mere chance? So, what do you say? Why not help
-				one another on this lonely journey?</p>
-			<p>This pleases me greatly! Well then, take this. We are amidst strange beings, in a strange land. The flow of time
-				itself is convoluted, with heroes centuries old phasing in and out. The very fabric wavers, and relations shift and
-				obscure. There's no telling how much longer your world and mine will remain in contact. But, use this, to summon
-				one another as spirits, cross the gaps between the worlds, and engage in jolly co-operation! </p>
-			<p>Of course, we are not the only one engaged in this. But I am a warrior of the sun! Spot my summon signature
-				easily by its brilliant aura. If you miss it, you must be blind! Hah hah hah!</p>
+				<div class="col-md-12 col-sm-12">
+					<h2>About Me</h2>
+					<div class=profileBox>
+						<img class="img-fluid float-left profilepic" src="assets/images/sunpraise.jpg">
+					</div>
+					<p class="bioText">Ah, hello! You don't look Hollow, far from it! I am Solaire of Astora, an adherent of the Lord
+						of Sunlight. Now
+						that I am Undead, I have come to this great land, the birthplace of Lord Gwyn, to seek my very own sun! … Do you
+						find that strange? Well, you should! No need to hide your reaction. I get that look all the time! Hah hah hah!
+						Oh, ah hah! </p>
+					<p class="bioText">So, I didn't scare you? I have a proposition, if you have a moment. The way I see it, our fates
+						appear to be intertwined. In a land brimming with Hollows, could that really be mere chance? So, what do you say? Why not help
+						one another on this lonely journey?</p>
+					<p class="bioText">This pleases me greatly! Well then, take this. We are amidst strange beings, in a strange land.
+						The flow of time itself is convoluted, with heroes centuries old phasing in and out. The very fabric wavers, and relations shift
+						and	obscure. There's no telling how much longer your world and mine will remain in contact. But, use this, to summon
+						one another as spirits, cross the gaps between the worlds, and engage in jolly co-operation! </p>
+					<p class="bioText">Of course, we are not the only one engaged in this. But I am a warrior of the sun! Spot my
+						summon signature easily by its brilliant aura. If you miss it, you must be blind! Hah hah hah!</p>
+				</div>
 			</div>
 		</div>
 		</div>
-	</div>
 	</main>
 
 	<!--Basic footnote section-->
 	<footer>
 		<p>Copyright &copy</p>
 	</footer>
+
+</div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous"></script>
 </body>
+
 </html>

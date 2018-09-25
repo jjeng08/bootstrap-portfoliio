@@ -7,76 +7,83 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
 	 crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 
 	<title>Joshua Jeng's Profile</title>
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg  fixed-top personalMods" role="navigation">
-		<a class="navbar-brand px-3" id="barName" href="#">Joshua Jeng</a>
-		<button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
-		 aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon navbar-light"></span>
-		</button>
-		<div class="collapse navbar-collapse m1-auto " id="navbarNavDropdown">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link barlink" id="barPortfolio" href="#">About <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link barlink" id="barPortfolio" href="#">Portfolio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link barlink" href="#">Contact</a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-	<main>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="pl-5 pt-4 pb-2 mb-4 mx-4">Portfolio</h2>
-				</div>
+	<div class="fullPage">
+		<!--This is the title bar of this page which contains my name and the connecting links.-->
+		<nav class="navbar navbar-expand-lg  fixed-top personalMods" role="navigation">
+			<a class="navbar-brand px-3" id="barName" href="./index.html">Joshua Jeng</a>
+			<button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+			 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon navbar-light"></span>
+			</button>
+			<div class="collapse navbar-collapse m1-auto " id="navbarNavDropdown">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link barlink" id="barPortfolio" href="./index.html">About <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link barlink" id="barPortfolio" href="./portfolio.html">Portfolio</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link barlink" href="./contact.html">Contact</a>
+					</li>
+				</ul>
 			</div>
-			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-5">
-					<div class="picBox clearfix">
-						<img class="img-fluid float-center piclimit" src="assets/images/artorias.jpg">
-						<div class="picLabel">test text</div>
-					</div>
-				</div>
-				<div class="col-md-5">
-					<div class="picBox clearfix">
-						<img class="img-fluid float-center piclimit" src="assets/images/mimic.jpg">
-						<div class="picLabel">test text</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-1"></div>
-				<div class="col-md-5">
-					<div class="picBox clearfix">
-						<img class="img-fluid float-center piclimit" src="assets/images/gwyn.jpg">
-						<div class="picLabel">Arial</div>
-					</div>
-				</div>
-				<div class="col-md-5">
-					<div class="picBox clearfix">
-						<img class="img-fluid float-center piclimit" src="assets/images/seigmeyer.jpg">
-						<div class="picLabel">test text</div>
-					</div>
-				</div>
-			</div>
+		</nav>
 
-		</div>
-	</main>
+		<img class="easteregg" src="./assets/images/easteregg.jpg">
 
-	<footer>
-		Copyright &copy
-	</footer>
+		<main>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>Portfolio</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-5 col-sm-12">
+						<div class="picBox clearfix">
+							<img class="img-fluid float-center piclimit" src="assets/images/artorias.jpg">
+							<a class="picLabel" href="#">test text</a>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-12">
+						<div class="picBox clearfix">
+							<img class="img-fluid float-center piclimit" src="assets/images/mimic.jpg">
+							<a class="picLabel" href="#">test text</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-md-5 col-sm-12">
+						<div class="picBox clearfix">
+							<img class="img-fluid float-center piclimit" src="assets/images/gwyn.jpg">
+							<a class="picLabel" href="#">Arial</a>
+						</div>
+					</div>
+					<div class="col-md-5 col-sm-12">
+						<div class="picBox clearfix">
+							<img class="img-fluid float-center piclimit" src="assets/images/seigmeyer.jpg">
+							<a class="picLabel" href="#">test text</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</main>
+
+		<footer>
+			Copyright &copy
+		</footer>
 
 	</div>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

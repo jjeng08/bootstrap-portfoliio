@@ -1,3 +1,14 @@
+/*HTML*/
+html {
+	height: 100%;
+}
+
+body {
+	min-height: 100%;
+	display: grid;
+	grid-template-rows: 1fr auto;
+  }
+
 /*Navbar*/
 #barName{
 	background-color: #4aaaa5;
@@ -41,24 +52,8 @@
 	border-width:1px;
 }
 
-/*Easter Egg*/
-.easteregg{
-	display:none;
-	margin-top:70px;
-	width:250px;
-	margin-left:auto;
-	margin-right:auto;
-  }
 
 /*Main Body*/
-.fullPage{
-	box-sizing:border-box;
-	padding:0px;
-	margin:0;
-	min-height:100%;
-	margin-bottom:-40px;
-}
-
 main{
 	border-style:solid;
 	border-width:2px;
@@ -100,6 +95,8 @@ footer{
 	height:40px;
 	line-height:40px;
 	padding-top:0px;
+	grid-row-start: 2;
+	grid-row-end: 3;
 }
 
 /*Index Specific*/
@@ -218,6 +215,17 @@ footer{
 		text-align:middle;
 		border-style:none;
 	}
+
+
+/*Easter Egg*/
+.easteregg{
+	display:none;
+	width:250px;
+	margin-top:20px;
+	margin-bottom:40px;
+	margin-left:auto;
+	margin-right:auto;
+  }
 
 /*Clearfix Base*/
 .clearfix::after {
